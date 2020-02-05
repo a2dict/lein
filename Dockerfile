@@ -1,4 +1,4 @@
-FROM maven:3.6-jdk-8
+FROM maven:3.6-jdk-11
 
 RUN set -ex && \
         wget -O /usr/bin/lein https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein && \
